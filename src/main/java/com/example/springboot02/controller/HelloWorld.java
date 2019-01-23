@@ -19,11 +19,7 @@ public class HelloWorld {
         System.out.println("测试");
         return "hello-world03";
     }
-    @RequestMapping("/hello4")
-    public String helloWorld04(){
-        System.out.println("生效了么?");
-        return "hello-world04";
-    }
+
 
 
 }
